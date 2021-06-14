@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - ChangePoint1
+  - Blue
+  - Green
+  - Orange
   layers:
   - Default
   - TransparentFX

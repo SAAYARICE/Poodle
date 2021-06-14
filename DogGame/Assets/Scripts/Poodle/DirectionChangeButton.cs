@@ -5,9 +5,13 @@ namespace DogGame.Poodle
     public class DirectionChangeButton : MonoBehaviour
     {
         //初期値は右
-        public Direction FirstDirection, SecondDirection = Direction.right;
+        public Direction FirstDirection, SecondDirection;
 
-
+        private void Start()
+        {
+            FirstDirection = Direction.right;
+            SecondDirection = Direction.right;
+        }
         public void FirstChange()
         {
             if (FirstDirection == Direction.right)

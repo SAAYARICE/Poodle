@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace DogGame.Poodle
 {
-    class Level1Poodle : BasePoodle
+    class PoodleSc : PoodleMover
     {
         public float speed;
         Direction FirstDirection;
@@ -33,19 +33,19 @@ namespace DogGame.Poodle
            }
         }
 
-        public override void Jump(Direction dire)
-        {
-            if(dire == Direction.right)
-            {
-                //右に飛ぶ処理
-                Debug.Log("右に飛ぶ");
-            }
-            else
-            {
-                //左に飛ぶ処理
-                Debug.Log("左に飛ぶ");
-            }
-        }
+        //public override void Jump(Direction dire)
+        //{
+        //    if(dire == Direction.right)
+        //    {
+        //        //右に飛ぶ処理
+        //        Debug.Log("右に飛ぶ");
+        //    }
+        //    else
+        //    {
+        //        //左に飛ぶ処理
+        //        Debug.Log("左に飛ぶ");
+        //    }
+        //}
     }
 }
 
